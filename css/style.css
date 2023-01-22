@@ -1,0 +1,94 @@
+/* CSS HEX */
+/* black-shadows: #b4a6abff; */
+/* onyx: #3c3c3cff; */
+/* china-pink: #e56399ff; */
+/* middle-blue-green: #7fd1b9ff; */
+/* orange-yellow: #f2bb05ff; */
+/* burnt-orange: #d74e09ff; */
+/* burgundy: #6a041dff; */
+
+/* black: #010400ff;
+midnight-blue: #080357ff;
+dim-gray: #696773ff;
+morning-blue: #819595ff;
+ash-gray: #b1b6a6ff; */
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    background: rgba(129, 149, 149, 0.715);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.flex-item {
+    flex: 1 1 auto;
+    background-color: rgba(105, 103, 115, 0.236);
+    box-sizing: border-box;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+h1, h2, p, .flex-container, .flex-item{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p, .flex-item{
+    font-size: 12px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background: #819595ff;
+    background-color: #f2bb05ff;
+    color: rgb(45, 40, 40);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    /* background-color: #555; */
+    background-color: rgb(178, 137, 4);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-size: 12;
+  }
+
+/* Flex Container Properties
+Flex-direction
+Flex-wrap
+Flex-flow
+Justify-content
+    Flex-start
+    Flex-end
+    Center
+    Space-between
+    Space-around
+Align-items
+    Stretch
+    Flex-start
+    Flex-end
+    Center
+    Baseline
+Align-content
+    Stretch
+    Flex-start
+    Flex-end
+    Center */
